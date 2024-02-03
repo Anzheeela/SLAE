@@ -1,5 +1,5 @@
 #include <src/progonka.h>
-#include <iostream>
+// #include <iostream>
 #include <gtest/gtest.h>
 #include <vector>
 
@@ -11,7 +11,7 @@ TEST(three_matrix, solve)
     std::vector d = {0., 0., 0., 0., 0.};
     three_matrix x;
 
-    x.progonka(a, b, c, d);
+    x.progonka();
 
     EXPECT_EQ(a.size(), 0u);
 };
