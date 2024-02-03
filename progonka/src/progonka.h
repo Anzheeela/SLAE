@@ -25,6 +25,7 @@ class three_matrix {
         for(unsigned int n = 1; n <= N; n++) {
             x[n] = (f[n] - diag_3[n] * q[n]) / (diag_3[n] * p[n] + diag_2[n]);
         }
+        
         return x;
     }
 };
