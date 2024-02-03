@@ -1,7 +1,0 @@
-/home/anzheeela/Documents/Study/4sem/SLAU/SLAE/progonka/test/build/CMakeFiles/testfth.dir
-/home/anzheeela/Documents/Study/4sem/SLAU/SLAE/progonka/test/build/CMakeFiles/test.dir
-/home/anzheeela/Documents/Study/4sem/SLAU/SLAE/progonka/test/build/CMakeFiles/edit_cache.dir
-/home/anzheeela/Documents/Study/4sem/SLAU/SLAE/progonka/test/build/CMakeFiles/rebuild_cache.dir
-/home/anzheeela/Documents/Study/4sem/SLAU/SLAE/progonka/test/build/dim/CMakeFiles/test.dir
-/home/anzheeela/Documents/Study/4sem/SLAU/SLAE/progonka/test/build/dim/CMakeFiles/edit_cache.dir
-/home/anzheeela/Documents/Study/4sem/SLAU/SLAE/progonka/test/build/dim/CMakeFiles/rebuild_cache.dir

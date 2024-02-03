@@ -1,1 +1,0 @@
-/usr/bin/c++ -rdynamic CMakeFiles/testfth.dir/main.cpp.o -o testfth  /usr/lib/x86_64-linux-gnu/libgtest.a 
