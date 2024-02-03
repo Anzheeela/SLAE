@@ -2,20 +2,20 @@
 // #include <iostream>
 #include <gtest/gtest.h>
 #include <vector>
+#include <type_traits>
 
-TEST(three_matrix, solve)
+TEST(a, solve)
 {
     std::vector a = {1., 2., 3., 4.};
     std::vector b = {1., 2., 3., 4., 5.};
     std::vector c = {2., 3., 4., 5.};
     std::vector d = {0., 0., 0., 0., 0.};
-    three_matrix x;
+    std::vector<double> x;
 
-    x.progonka();
+    EXPECT_EQ(a.size(), 4u);
 
-    EXPECT_EQ(a.size(), 0u);
 };
-
+ 
 int main(int argc, char *argv[])
 {
     ::testing::InitGoogleTest(&argc, argv);

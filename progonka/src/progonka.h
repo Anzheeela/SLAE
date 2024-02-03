@@ -9,7 +9,6 @@ class three_matrix {
     std::vector<double> diag_3;
     std::vector<double> f;
 
-    // public:
     std::vector<double> progonka() {
         unsigned int N = (unsigned int)(diag_2.size());
         std::vector<double> p;
@@ -23,11 +22,9 @@ class three_matrix {
             q[i + 1] = (f[i] - diag_3[i] * q[i]) / (diag_3[i] * p[i] + diag_2[i]);   
         }
 
-        for(unsigned int n = 0; n <= N - 1; n++) {
+        for(unsigned int n = 1; n <= N; n++) {
             x[n] = (f[n] - diag_3[n] * q[n]) / (diag_3[n] * p[n] + diag_2[n]);
         }
         return x;
     }
-
 };
-
