@@ -1,1 +1,0 @@
-/usr/bin/c++ -rdynamic CMakeFiles/testfth.dir/main.cpp.o -o testfth   -L/home/anzheeela/Documents/Study/4sem/SLAU/SLAE/progonka/test/../build  -Wl,-rpath,/home/anzheeela/Documents/Study/4sem/SLAU/SLAE/progonka/test/../build dim/libfuckthis.a /usr/lib/x86_64-linux-gnu/libgtest.a 
