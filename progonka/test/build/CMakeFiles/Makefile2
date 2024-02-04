@@ -80,7 +80,7 @@ clean: dim/clean
 # Directory level rules for directory dim
 
 # Recursive "all" directory target.
-dim/all:
+dim/all: dim/CMakeFiles/fuckthis.dir/all
 .PHONY : dim/all
 
 # Recursive "preinstall" directory target.
@@ -88,22 +88,22 @@ dim/preinstall:
 .PHONY : dim/preinstall
 
 # Recursive "clean" directory target.
-dim/clean:
+dim/clean: dim/CMakeFiles/fuckthis.dir/clean
 .PHONY : dim/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/testfth.dir
 
 # All Build rule for target.
-CMakeFiles/testfth.dir/all:
+CMakeFiles/testfth.dir/all: dim/CMakeFiles/fuckthis.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testfth.dir/build.make CMakeFiles/testfth.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testfth.dir/build.make CMakeFiles/testfth.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anzheeela/Documents/Study/4sem/SLAU/SLAE/progonka/test/build/CMakeFiles --progress-num=1,2 "Built target testfth"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anzheeela/Documents/Study/4sem/SLAU/SLAE/progonka/test/build/CMakeFiles --progress-num=3,4 "Built target testfth"
 .PHONY : CMakeFiles/testfth.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/testfth.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anzheeela/Documents/Study/4sem/SLAU/SLAE/progonka/test/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anzheeela/Documents/Study/4sem/SLAU/SLAE/progonka/test/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/testfth.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anzheeela/Documents/Study/4sem/SLAU/SLAE/progonka/test/build/CMakeFiles 0
 .PHONY : CMakeFiles/testfth.dir/rule
@@ -116,6 +116,32 @@ testfth: CMakeFiles/testfth.dir/rule
 CMakeFiles/testfth.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testfth.dir/build.make CMakeFiles/testfth.dir/clean
 .PHONY : CMakeFiles/testfth.dir/clean
+
+#=============================================================================
+# Target rules for target dim/CMakeFiles/fuckthis.dir
+
+# All Build rule for target.
+dim/CMakeFiles/fuckthis.dir/all:
+	$(MAKE) $(MAKESILENT) -f dim/CMakeFiles/fuckthis.dir/build.make dim/CMakeFiles/fuckthis.dir/depend
+	$(MAKE) $(MAKESILENT) -f dim/CMakeFiles/fuckthis.dir/build.make dim/CMakeFiles/fuckthis.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anzheeela/Documents/Study/4sem/SLAU/SLAE/progonka/test/build/CMakeFiles --progress-num=1,2 "Built target fuckthis"
+.PHONY : dim/CMakeFiles/fuckthis.dir/all
+
+# Build rule for subdir invocation for target.
+dim/CMakeFiles/fuckthis.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anzheeela/Documents/Study/4sem/SLAU/SLAE/progonka/test/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dim/CMakeFiles/fuckthis.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anzheeela/Documents/Study/4sem/SLAU/SLAE/progonka/test/build/CMakeFiles 0
+.PHONY : dim/CMakeFiles/fuckthis.dir/rule
+
+# Convenience name for target.
+fuckthis: dim/CMakeFiles/fuckthis.dir/rule
+.PHONY : fuckthis
+
+# clean rule for target.
+dim/CMakeFiles/fuckthis.dir/clean:
+	$(MAKE) $(MAKESILENT) -f dim/CMakeFiles/fuckthis.dir/build.make dim/CMakeFiles/fuckthis.dir/clean
+.PHONY : dim/CMakeFiles/fuckthis.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

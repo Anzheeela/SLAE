@@ -1,7 +1,7 @@
 CMakeFiles/testfth.dir/main.cpp.o: \
  /home/anzheeela/Documents/Study/4sem/SLAU/SLAE/progonka/test/main.cpp \
  /usr/include/stdc-predef.h \
- /home/anzheeela/Documents/Study/4sem/SLAU/SLAE/progonka/./src/progonka.h \
+ /home/anzheeela/Documents/Study/4sem/SLAU/SLAE/progonka/test/../src/progonka.h \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -161,7 +161,11 @@ CMakeFiles/testfth.dir/main.cpp.o: \
  /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
- /usr/include/c++/11/bits/vector.tcc /usr/include/gtest/gtest.h \
+ /usr/include/c++/11/bits/vector.tcc /usr/include/c++/11/fstream \
+ /usr/include/c++/11/bits/codecvt.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+ /usr/include/c++/11/bits/fstream.tcc /usr/include/gtest/gtest.h \
  /usr/include/c++/11/cstddef /usr/include/c++/11/limits \
  /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
@@ -229,8 +233,7 @@ CMakeFiles/testfth.dir/main.cpp.o: \
  /usr/include/c++/11/bits/locale_facets_nonio.h /usr/include/c++/11/ctime \
  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
- /usr/include/libintl.h /usr/include/c++/11/bits/codecvt.h \
- /usr/include/c++/11/bits/locale_facets_nonio.tcc \
+ /usr/include/libintl.h /usr/include/c++/11/bits/locale_facets_nonio.tcc \
  /usr/include/c++/11/bits/locale_conv.h \
  /usr/include/gtest/internal/custom/gtest-port.h \
  /usr/include/gtest/internal/gtest-port-arch.h /usr/include/regex.h \

@@ -139,6 +139,19 @@ testfth/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testfth.dir/build.make CMakeFiles/testfth.dir/build
 .PHONY : testfth/fast
 
+#=============================================================================
+# Target rules for targets named fuckthis
+
+# Build rule for target.
+fuckthis: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fuckthis
+.PHONY : fuckthis
+
+# fast build rule for target.
+fuckthis/fast:
+	$(MAKE) $(MAKESILENT) -f dim/CMakeFiles/fuckthis.dir/build.make dim/CMakeFiles/fuckthis.dir/build
+.PHONY : fuckthis/fast
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -172,6 +185,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... fuckthis"
 	@echo "... testfth"
 	@echo "... main.o"
 	@echo "... main.i"

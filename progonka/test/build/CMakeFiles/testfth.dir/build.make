@@ -92,6 +92,7 @@ testfth_EXTERNAL_OBJECTS =
 
 testfth: CMakeFiles/testfth.dir/main.cpp.o
 testfth: CMakeFiles/testfth.dir/build.make
+testfth: dim/libfuckthis.a
 testfth: /usr/lib/x86_64-linux-gnu/libgtest.a
 testfth: CMakeFiles/testfth.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/anzheeela/Documents/Study/4sem/SLAU/SLAE/progonka/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable testfth"

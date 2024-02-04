@@ -126,6 +126,44 @@ depend:
 	cd /home/anzheeela/Documents/Study/4sem/SLAU/SLAE/progonka/test/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+dim/CMakeFiles/fuckthis.dir/rule:
+	cd /home/anzheeela/Documents/Study/4sem/SLAU/SLAE/progonka/test/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dim/CMakeFiles/fuckthis.dir/rule
+.PHONY : dim/CMakeFiles/fuckthis.dir/rule
+
+# Convenience name for target.
+fuckthis: dim/CMakeFiles/fuckthis.dir/rule
+.PHONY : fuckthis
+
+# fast build rule for target.
+fuckthis/fast:
+	cd /home/anzheeela/Documents/Study/4sem/SLAU/SLAE/progonka/test/build && $(MAKE) $(MAKESILENT) -f dim/CMakeFiles/fuckthis.dir/build.make dim/CMakeFiles/fuckthis.dir/build
+.PHONY : fuckthis/fast
+
+src/progonka.o: src/progonka.cpp.o
+.PHONY : src/progonka.o
+
+# target to build an object file
+src/progonka.cpp.o:
+	cd /home/anzheeela/Documents/Study/4sem/SLAU/SLAE/progonka/test/build && $(MAKE) $(MAKESILENT) -f dim/CMakeFiles/fuckthis.dir/build.make dim/CMakeFiles/fuckthis.dir/src/progonka.cpp.o
+.PHONY : src/progonka.cpp.o
+
+src/progonka.i: src/progonka.cpp.i
+.PHONY : src/progonka.i
+
+# target to preprocess a source file
+src/progonka.cpp.i:
+	cd /home/anzheeela/Documents/Study/4sem/SLAU/SLAE/progonka/test/build && $(MAKE) $(MAKESILENT) -f dim/CMakeFiles/fuckthis.dir/build.make dim/CMakeFiles/fuckthis.dir/src/progonka.cpp.i
+.PHONY : src/progonka.cpp.i
+
+src/progonka.s: src/progonka.cpp.s
+.PHONY : src/progonka.s
+
+# target to generate assembly for a file
+src/progonka.cpp.s:
+	cd /home/anzheeela/Documents/Study/4sem/SLAU/SLAE/progonka/test/build && $(MAKE) $(MAKESILENT) -f dim/CMakeFiles/fuckthis.dir/build.make dim/CMakeFiles/fuckthis.dir/src/progonka.cpp.s
+.PHONY : src/progonka.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -135,6 +173,10 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... fuckthis"
+	@echo "... src/progonka.o"
+	@echo "... src/progonka.i"
+	@echo "... src/progonka.s"
 .PHONY : help
 
 

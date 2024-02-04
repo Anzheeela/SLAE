@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/anzheeela/Documents/Study/4sem/SLAU/SLAE/progonka/.
+CXX_INCLUDES = -I/home/anzheeela/Documents/Study/4sem/SLAU/SLAE/progonka/test/../src -I/home/anzheeela/Documents/Study/4sem/SLAU/SLAE/progonka/.
 
 CXX_FLAGS = -DGTEST_HAS_PTHREAD=1 -std=gnu++20
 
