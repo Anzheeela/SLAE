@@ -1,4 +1,4 @@
-#include "progonka.h"
+#include"progonka.h"
 
 std::vector<double> progonka(three_matrix mat, std::vector<double> f) {
     unsigned int N = (unsigned int)(mat.diag_2.size());
