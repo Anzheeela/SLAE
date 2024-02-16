@@ -5,7 +5,7 @@ set(HEADERS
     src/progonka.h
 )
 
-add_library(${PROJECT_NAME} src/progonka.cpp)
+add_library(${PROJECT_NAME} INTERFACE src/progonka.h)
 target_include_directories(${PROJECT_NAME} INTERFACE .)
 target_compile_features(${PROJECT_NAME} INTERFACE cxx_std_20)
 
