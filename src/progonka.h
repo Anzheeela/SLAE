@@ -8,7 +8,7 @@ struct three_matrix {
     std::vector<double> diag_3; // a
 };
 
-std::vector<double> progonka(three_matrix mat, std::vector<double> f) {
+std::vector<double> progonka(const three_matrix &mat, const std::vector<double> &f) {
     unsigned int N = (unsigned int)(mat.diag_2.size());
     std::vector<double> p = std::vector<double>(N);
     std::vector<double> q = std::vector<double>(N);
