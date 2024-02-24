@@ -1,4 +1,4 @@
-#include<progonka.h>
+#include<three_diag_matrix.h>
 // #include <iostream>
 #include<gtest/gtest.h>
 #include<vector>
