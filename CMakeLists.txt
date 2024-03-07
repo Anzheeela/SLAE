@@ -5,7 +5,7 @@ set(HEADERS
     src/progonka.h
 )
 
-add_library(${PROJECT_NAME} INTERFACE src/three_diag_matrix.h src/vec_operations.h  src/mpi.h)
+add_library(${PROJECT_NAME} INTERFACE src/gaussSeidel.h src/jacobi.h src/linspace.h src/progonka.h)
 target_include_directories(${PROJECT_NAME} INTERFACE .)
 target_compile_features(${PROJECT_NAME} INTERFACE cxx_std_20)
 

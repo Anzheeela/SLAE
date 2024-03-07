@@ -1,7 +1,7 @@
 #include <cstddef>
 #include <vector>
 #include <stdint.h>
-#include "vector-operations.h"
+#include "vec_operations.h"
 
 template<typename T>
 struct denseMatrix{
