@@ -1,5 +1,3 @@
-// tol - параметр сходимости
-// max_iter максимальное количество итераций
 sol jacobi(std::vector<std::vector<double>> A, std::vector<double> b, std::vector<double> x0, double tol, int max_iter=1000) {
     int n = A.size();
     std::vector<double> x = x0, x_new(n);

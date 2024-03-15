@@ -4,7 +4,7 @@ project(testfth)
 enable_testing()
 find_package(GTest REQUIRED)
 
-add_executable(${PROJECT_NAME} test_foth.cpp)
+add_executable(${PROJECT_NAME} test_fifth.cpp)
 
 add_subdirectory(../ dim/)
 target_link_directories(${PROJECT_NAME} PRIVATE ../build)

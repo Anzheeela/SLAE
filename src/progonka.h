@@ -4,7 +4,6 @@ std::vector<double> progonka(const std::vector<std::vector<double>>& A, const st
     std::vector<double> c(n);
     std::vector<double> d(n);
 
-    // Прямой ход
     c[0] = A[0][1] / A[0][0];
     d[0] = b[0] / A[0][0];
     for (int i = 1; i < n; ++i) {
@@ -13,7 +12,6 @@ std::vector<double> progonka(const std::vector<std::vector<double>>& A, const st
         d[i] = (b[i] - A[i][i - 1] * d[i - 1]) * m;
     }
 
-    // Обратный ход
     x[n - 1] = d[n - 1];
     for (int i = n - 2; i >= 0; --i) {
         x[i] = d[i] - c[i] * x[i + 1];

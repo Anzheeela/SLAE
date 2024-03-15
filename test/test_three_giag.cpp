@@ -15,7 +15,7 @@ TEST(matrix, solve)
     std::vector<double> s = progonka(x, d);
 
     EXPECT_EQ(s.size(), 5);
-};
+}
 
 TEST(matrix, solve1)
 {
